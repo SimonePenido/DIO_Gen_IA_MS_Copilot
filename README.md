@@ -4,14 +4,9 @@
 ![Static Badge](https://img.shields.io/badge/Status_Projeto:-Em_Andamento-green)
 
 
-
-
 ![Static Badge](https://img.shields.io/badge/Inteligência_Artificial_(IA)-red)
 ![Static Badge](https://img.shields.io/badge/IA_Generativa-red)
 ![Static Badge](https://img.shields.io/badge/Microsoft_Copilot-red)
-
-
-
 
 
 ## Introdução
@@ -216,4 +211,18 @@ Para utilizar a API da OpenAI, siga os passos abaixo:
 
     Resultado:
 
+   <div align="center">
+     <img src="output/1.jfif" alt="Prompt for AI" width="400"/>
+      <img src="output/2.jfif" alt="Prompt for AI" width="400"/>
+      <img src="output/3.jfif" alt="Prompt for AI" width="400"/>
+      <img src="output/4.jfif" alt="Prompt for AI" width="400"/>
+      <img src="output/5.jfif" alt="Prompt for AI" width="400"/>
+      <img src="output/6.jfif" alt="Prompt for AI" width="400"/>
+      <img src="output/7.jfif" alt="Prompt for AI" width="400"/>
+      <img src="output/8.jfif" alt="Prompt for AI" width="400"/>
+      <img src="output/9.jfif" alt="Prompt for AI" width="400"/>
+      <img src="output/10.jfif" alt="Prompt for AI" width="400"/>
+   </div>
+
+   
     
