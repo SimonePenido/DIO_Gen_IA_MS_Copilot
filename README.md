@@ -173,35 +173,47 @@ Para utilizar a API da OpenAI, siga os passos abaixo:
 
 
 # Criação de imagens com DALL-E
-Outro projeto interessante é a criação de imagens utilizando o modelo DALL-E. Você pode criar uma aplicação que gera imagens baseadas em descrições textuais fornecidas pelos usuários.
 
-1. Configuração inicial:
-Instale a biblioteca OpenAI.
+   - Outro projeto interessante é a criação de imagens utilizando o modelo DALL-E. Você pode criar uma aplicação que gera imagens baseadas em descrições textuais fornecidas pelos usuários.
+
+   1. Configuração inicial:
+   Instale a biblioteca OpenAI.
 
     pip install openai
 
 
-2. Código para gerar imagens:
-Implemente um script que utiliza o DALL-E para gerar imagens.
-Python
+   2. Código para gerar imagens:
+   Implemente um script que utiliza o DALL-E para gerar imagens.
 
-        import openai
+         ```Python
 
-        openai.api_key = 'sua-chave-de-api'
+           import openai
 
-        prompt = "Um castelo medieval em um penhasco à beira-mar"
-        response = openai.Image.create(
-       prompt=prompt,
-        n=1,
-        size="1024x1024"
-        )
+           openai.api_key = 'sua-chave-de-api'
 
-        image_url = response['data'][0]['url']
-        print(image_url)
+           prompt = "Um castelo medieval em um penhasco à beira-mar"
+           response = openai.Image.create(
+          prompt=prompt,
+           n=1,
+           size="1024x1024"
+           )
 
-  3. Crie uma interface simples para exibir as imagens geradas.
-  Outros projetos sugeridos
+           image_url = response['data'][0]['url']
+           print(image_url)
+
+
+   4. Crie uma interface simples para exibir as imagens geradas.
+  
+   Outros projetos sugeridos
 
   - Gerador de histórias: Utilize o GPT-3 para criar histórias baseadas em temas ou personagens fornecidos pelos usuários.
   - Assistente de programação: Desenvolva uma ferramenta que sugere trechos de código ou ajuda a resolver problemas de programação.
   - Aplicativo de arte generativa: Crie uma aplicação que gera arte abstrata ou paisagens baseadas em descrições textuais.
+
+    ## UTILIZANDO O BING IMAGE GENERATOR
+
+    Propmpt utilizado: "Crie uma ilustração 3D estilo DreamWorks utilizado no Filme Shrek, de uma personagem feminina caucasiana, sentada casualmente em cima de um fundo branco, e    ela está segurando um laptop nas mãos. A personagem deve usar uma jaqueta estilo gótico, uma calça jeans azul escura, e uma camiseta preta com estampa de banda heavy metal, e      um tênis estilo All star. Os cabelo são da cor vermelho escuro e são cacheados. Ela também tem uma mecha da cor vermelha claro nos cabelos. Os olhos da personagem são da cor       verde oliva. A sombracelha é da cor marrom. Os lábios dela são finos. O formato do rosto é de uma mulher que está um pouco acima do peso. Ela possui o nariz arredondado, e          avermelhado na ponta. A expressão do rosto dela é calma e feliz. Ela está acima do peso. Ela está segurando um computador laptop. O fundo da imagem é branco puro."
+
+    Resultado:
+
+    
