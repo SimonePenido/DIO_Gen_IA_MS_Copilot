@@ -1,13 +1,13 @@
 # Explorando os Recursos de IA Generativa com Copilot e OpenAI
+## DIO_Gen_IA_MS_Copilot
 
-![Static Badge](https://img.shields.io/badge/Status_Projeto:-Concluído(25/Ago/2024)-green)
+![Static Badge](https://img.shields.io/badge/Status_Projeto:-Em_Andamento-green)
 
 
 
 
 ![Static Badge](https://img.shields.io/badge/Inteligência_Artificial_(IA)-red)
 ![Static Badge](https://img.shields.io/badge/IA_Generativa-red)
-![Static Badge](https://img.shields.io/badge/Transformers-red)
 ![Static Badge](https://img.shields.io/badge/Microsoft_Copilot-red)
 
 
